@@ -1,0 +1,226 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 100%;
+    width: 85%;
+    margin: 0 auto;
+}
+:root{
+    --white: rgba(255, 255, 255, 1);
+    --black: rgb(10, 10, 34);
+    --card-color: rgba(35, 32, 40, 1);
+}
+body{
+    background-color: var(--black);
+}
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+h1{
+    color: var(--white);
+font-size: 24px;
+font-weight: 600;
+line-height: 24px;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+.left-header{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.btn2{
+    background-color: var(--black);
+    width: 175px;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 0;
+    border: none;
+    border-radius: 15px;
+}
+.btn2:hover{
+    transition: 300ms ease;
+    background-color: rgba(191, 175, 242, 1);
+    width: 175px;
+    color: rgba(51, 51, 51, 1);
+    font-size: 18px;
+    padding: 10px 0;
+    border: none;
+    border-radius: 15px;
+}
+.btn1{
+    font-size: 18px;
+    width: 175px;
+    background-color: var(--black);
+    border: none;
+    color: #fff;
+}
+.btn1:hover{
+    transition: 300ms ease;
+    background-color: rgba(191, 175, 242, 1);
+    width: 175px;
+    color: rgba(51, 51, 51, 1);
+    font-size: 18px;
+    padding: 10px 0;
+    border: none;
+    border-radius: 15px;
+}
+.right-header{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+select{
+    background-color: var(--black);
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+}
+.option1{
+    font-size: 18px;
+    padding: 10px;
+    padding-top: 100px;
+}
+.title-text{
+    font-family: Outfit;
+font-size: 32px;
+font-weight: 400;
+line-height: 38.4px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: var(--white);
+padding: 60px 0 10px 0;
+}
+.card-text{
+    font-family: Outfit;
+font-size: 14px;
+font-weight: 400;
+line-height: 16.8px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: var(--white);
+padding: 2px 16px;
+}
+.card1{
+    width: 325px;
+    background-color: var(--card-color);
+    border-radius: 32px;
+}
+.card-texts:hover{
+    transition: 300ms ease;
+    width: 325px;
+    background-color: cadetblue;
+    border-radius: 32px;
+}
+.card-otasi{
+    padding-top: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding-bottom: 120px;
+}
+.img-card{
+    position: absolute;
+    top: 220px;
+    left: 290px;
+}
+.img-card:hover{
+    position: absolute;
+    transform: rotateY(360deg);
+    transition: 1s all;
+    top: 220px;
+    left: 290px;
+}
+.img-card1{
+    position: absolute;
+    top: 220px;
+    left: 650px;
+}
+.img-card1:hover{
+    position: absolute;
+    transform: rotateY(360deg);
+    transition: 1s all;
+    top: 220px;
+}
+.img-card2{
+    position: absolute;
+    top: 220px;
+    right: 660px;
+}
+.img-card2:hover{
+    position: absolute;
+    transform: rotateY(360deg);
+    transition: 1s all;
+    top: 220px;
+    right: 660px;
+}
+.img-card3{
+    position: absolute;
+    top: 220px;
+    right: 280px;
+}
+.img-card3:hover{
+    position: absolute;
+    transform: rotateY(360deg);
+    transition: 1s all;
+    top: 220px;
+    right: 280px;
+}
+h3{
+    font-family: Poppins;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: var(--white);
+}
+.footer-parent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+footer{
+    background-color: rgba(12, 14, 24, 0.4);
+}
+ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.link-footer{
+    font-family: Lato;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: var(--white);
+}
+.link-footer:hover{
+    transition: 300ms ease;
+    font-family: Lato;
+font-size: 22px;
+font-weight: 700;
+line-height: 24px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: var(--white);
+}
